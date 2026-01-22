@@ -94,7 +94,7 @@ Both backend instances are functionally identical.
 
 The Azure Portal clearly shows the public entry point for incoming traffic.
 
-<img src="04-public-lb-portal.png)" width="900"/>
+<img src="04-public-lb-portal.png" width="900"/>
 
 *Figure 4. Azure Public Load Balancer frontend IP configuration exposing a single public IP address.*
 
