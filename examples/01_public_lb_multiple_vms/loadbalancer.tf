@@ -1,5 +1,5 @@
 module "loadbalancer" {
-  source = "../../"
+  source = "github.com/mlinxfeld/terraform-az-fk-loadbalancer"
 
   name                = "fk-public-lb"
   resource_group_name = azurerm_resource_group.foggykitchen_rg.name
