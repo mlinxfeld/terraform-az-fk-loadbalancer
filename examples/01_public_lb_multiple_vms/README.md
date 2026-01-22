@@ -90,9 +90,19 @@ Both backend instances are functionally identical.
 
 ---
 
+## 🌐 Public Load Balancer – Azure View
+
+The Azure Portal clearly shows the public entry point for incoming traffic.
+
+<img src="04-public-lb-portal.png)" width="900"/>
+
+*Figure 4. Azure Public Load Balancer frontend IP configuration exposing a single public IP address.*
+
+---
+
 ### Public Load Balancer – Traffic Distribution
 
-<img src="04-public-lb-browser.png" width="900"/>
+<img src="05-public-lb-browser.png" width="900"/>
 
 *Figure 4. Public Load Balancer distributing requests across backend VMs.*
 
