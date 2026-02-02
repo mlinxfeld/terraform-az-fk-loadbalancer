@@ -9,6 +9,12 @@ It focuses on one core concept:
 
 > **A Load Balancer is a separate Azure resource that routes traffic to independently managed compute instances.**
 
+📘 **Related article:**  
+
+This repository shows *how* to deploy a Public Azure Load Balancer.
+The architectural intent behind this example — treating the Load Balancer as an explicit traffic contract — is explained in detail in the companion article:
+[https://foggykitchen.com/2026/02/01/terraform-azure-load-balancer-module/](https://foggykitchen.com/2026/02/01/terraform-azure-load-balancer-module/)
+
 ---
 
 ## 🧭 Architecture Overview
