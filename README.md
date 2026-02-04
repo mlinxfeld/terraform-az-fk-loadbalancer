@@ -5,7 +5,7 @@ progressive examples for deploying **Azure Load Balancers** and attaching
 them to **Virtual Machines** and **Virtual Machine Scale Sets (VMSS)** in a
 clean, explicit, and architecture-aware way.
 
-It is part of the **FoggyKitchen.com training ecosystem** and is designed as
+It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses-2/)** and is designed as
 a dedicated **traffic distribution layer** for Azure compute workloads.
 
 ---
@@ -86,13 +86,10 @@ module "loadbalancer" {
   location            = "westeurope"
   resource_group_name = "fk-rg"
 
-  frontend = {
-    public = true
-  }
+  public_lb     = true
+  frontend_name = "PublicLBIP"
 
-  backend_pool = {
-    name = "fk-backend-pool"
-  }
+  backend_pool_name = "fk-backend-pool"
 
   probe = {
     name                = "http-probe"
@@ -122,10 +119,12 @@ module "loadbalancer" {
 
 | Output | Description |
 |------|-------------|
-| `loadbalancer_id` | ID of the Azure Load Balancer |
-| `frontend_ip_id` | ID of the frontend public IP |
-| `frontend_ip_address` | Public IP address of the Load Balancer |
-| `backend_pool_id` | ID of the backend address pool |
+| `lb_id` | Load Balancer resource ID |
+| `lb_name` | Load Balancer name |
+| `frontend_ip_configuration_name` | Frontend IP configuration name |
+| `public_ip_id` | Public IP resource ID (if public_lb=true) |
+| `public_ip_address` | Public IP address (if public_lb=true) |
+| `backend_pool_id` | Backend Address Pool ID |
 | `probe_id` | ID of the health probe |
 | `rule_id` | ID of the load balancing rule |
 

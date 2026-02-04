@@ -10,7 +10,7 @@ and then with **Virtual Machine Scale Sets (VMSS)**.
 These examples deliberately focus on **load‑balancing fundamentals** and avoid
 enterprise abstractions or platform shortcuts.
 
-They are part of the **FoggyKitchen.com training ecosystem** and are used across:
+They are part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses-2/)** and are used across:
 
 - Azure Fundamentals with Terraform / OpenTofu  
 - Azure Compute (VM & VMSS) deep dives  
@@ -93,10 +93,10 @@ The goal is **clarity and correctness**, not completeness.
 
 ## 🔗 Related Modules & Training
 
-- terraform-az-fk-loadbalancer (this repository)
-- terraform-az-fk-compute
-- terraform-az-fk-vnet
-- terraform-az-fk-aks
+- [terraform-az-fk-loadbalancer](https://github.com/mlinxfeld/terraform-az-fk-loadbalancer) (this repository)
+- [terraform-az-fk-compute](https://github.com/mlinxfeld/terraform-az-fk-compute)
+- [terraform-az-fk-vnet](https://github.com/mlinxfeld/terraform-az-fk-vnet)
+- [terraform-az-fk-aks](https://github.com/mlinxfeld/terraform-az-fk-aks)
 
 ---
 
