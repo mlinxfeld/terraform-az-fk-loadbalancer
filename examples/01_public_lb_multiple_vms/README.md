@@ -110,7 +110,7 @@ The Azure Portal clearly shows the public entry point for incoming traffic.
 
 <img src="05-public-lb-browser.png" width="900"/>
 
-*Figure 4. Public Load Balancer distributing requests across backend VMs.*
+*Figure 5. Public Load Balancer distributing requests across backend VMs.*
 
 Refreshing the browser shows alternating responses:
 

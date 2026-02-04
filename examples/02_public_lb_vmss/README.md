@@ -26,7 +26,7 @@ This deployment includes:
 - One **Frontend Public IP**
 - One **Backend Address Pool**
 - One **Health Probe (TCP/80)**
-- One **Load Balancing Rule (HTTP/80)**
+- One **Load Balancing Rule (TCP/80)**
 - One **VM Scale Set** running Linux + NGINX
 - A **NAT Gateway** for outbound internet access
 
